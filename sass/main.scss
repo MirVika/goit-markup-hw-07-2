@@ -1,5 +1,6 @@
 // utils styles
 @import './utils/variables';
+@import './utils/v-hidden';
 
 
 // base styles
@@ -7,3 +8,8 @@
 @import './base/reset';
 
 // components styles
+@import './components/container';
+@import './components/section';
+@import './components/typography';
+@import './components/buttons';
+@import './components/header';
