@@ -1,6 +1,8 @@
 // utils styles
 @import './utils/variables';
 @import './utils/v-hidden';
+@import './utils/placeholders';
+@import './utils/mixins';
 
 
 // base styles
@@ -13,3 +15,16 @@
 @import './components/typography';
 @import './components/buttons';
 @import './components/header';
+@import './components/logo';
+@import './components/navigation';
+@import './components/hero';
+@import './components/benefits';
+@import './components/what-we-do';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
+@import './components/socials';
+@import './components/examples.scss';
+@import './components/overlay';
+@import './components/modal-window';
+@import './components/checkbox';
