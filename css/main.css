@@ -29,7 +29,7 @@
   overflow: hidden;
 }
 
-.our-team, .what-we-do, .ben {
+.our-team, .what-we-do, .benefits {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -645,7 +645,14 @@ p {
   padding-bottom: 94px;
 }
 
-.clients-list {
+.client-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.client-list__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -663,18 +670,11 @@ p {
   -webkit-transition: color var(--trns-fast);
   transition: color var(--trns-fast);
 }
-.clients-list:hover, .clients-list:focus {
+.client-list__link:hover, .client-list__link:focus {
   color: #2196f3;
 }
 
-.client-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 30px;
-}
-
-.clients-icon {
+.client-list__icon {
   fill: currentColor;
 }
 

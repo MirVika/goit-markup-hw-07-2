@@ -1,7 +1,12 @@
 .client {
     @include section (94px, 94px);
 }
-.clients-list {
+
+.client-list {
+    display: flex;
+    gap: 30px;
+}
+.client-list__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,12 +23,8 @@
     }
 }
 
-.client-list {
-    display: flex;
-    gap: 30px;
-}
 
-.clients-icon {
+.client-list__icon {
     fill: currentColor;
 }
 

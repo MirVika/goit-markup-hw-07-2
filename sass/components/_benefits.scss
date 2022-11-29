@@ -1,9 +1,12 @@
 
+.benefits {
+    @extend %section;
+
+}
 .ben {
     display: flex;
     gap: 30px;
 
-    @extend %section;
 }
 
 .ben-list {
